@@ -9,10 +9,9 @@ public class PartyHouse {
                 "Bebe Vio", "Luis", "Pardis Zarei", "Martina Maccherone", "Rachel Zeilic"};
 
         // Richiedo il nome all'utente
-        String userName;
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Scrivi il tuo nome: ");
-        userName = in.nextLine();
+        String userName = input.nextLine();
 
         // Verifico se il nome è presente nella lista o meno
         /*boolean invited = false;
@@ -40,7 +39,7 @@ public class PartyHouse {
         }
 
         // Chiudo lo Scanner
-        in.close();
+        input.close();
     }
 
 }
