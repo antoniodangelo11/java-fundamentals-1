@@ -15,12 +15,22 @@ public class PartyHouse {
         userName = in.nextLine();
 
         // Verifico se il nome è presente nella lista o meno
-        boolean invited = false;
+        /*boolean invited = false;
         for (int i = 0; i < guestList.length; i++) {
             if (userName.equals(guestList[i])) {
                 invited = true;
                 break;
             }
+        }*/
+
+        boolean invited = false;
+        int i = 0;
+        while (i < guestList.length) {
+            if (userName.equals(guestList[i])) {
+                invited = true;
+                break;
+            }
+            i++;
         }
 
         if (invited) {
