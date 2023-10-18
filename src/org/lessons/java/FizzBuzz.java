@@ -1,8 +1,8 @@
 package org.lessons.java;
-
 public class FizzBuzz {
     public static void main(String[] args) {
 
+        // Inizializzo il count da 1 a 100 e stabilisco le condizioni
         for (int number = 1; number <= 100; number++) {
 
             if (number % 3 == 0 && number % 5 == 0) {

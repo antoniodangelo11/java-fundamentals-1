@@ -1,7 +1,6 @@
 package org.lessons.java;
 
 import java.util.Scanner;
-
 public class PartyHouse {
     public static void main(String[] args) {
 
